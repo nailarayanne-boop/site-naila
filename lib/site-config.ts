@@ -40,6 +40,7 @@ export const siteConfig = {
     { label: "Início", href: "#inicio" },
     { label: "Sobre", href: "#sobre" },
     { label: "Como funciona", href: "#como-funciona" },
+    { label: "Avaliações", href: "#avaliacoes" },
     { label: "Benefícios", href: "#beneficios" },
     { label: "Dúvidas", href: "#duvidas" },
     { label: "Contato", href: "#contato" },
@@ -62,6 +63,26 @@ export const siteConfig = {
       "Sou Naila Rayanne, psicóloga (CRP 09/012807), e acredito que cada pessoa possui recursos internos importantes para lidar com suas dores, desafios e momentos difíceis. Meu trabalho é oferecer um espaço seguro, empático e acolhedor, onde você possa se sentir à vontade para falar, refletir e se compreender melhor.",
       "Atuo com psicoterapia online pela abordagem da Gestalt-terapia, que valoriza o encontro, a consciência do aqui e agora e a forma única como cada pessoa vive suas experiências, sempre respeitando o seu ritmo e as suas necessidades.",
       "Meu objetivo é ajudar você a compreender seus pensamentos, emoções e comportamentos, promovendo mais equilíbrio emocional, autoconhecimento e qualidade de vida.",
+    ],
+  },
+
+  reviews: {
+    eyebrow: "Avaliações",
+    title: "O que dizem sobre o processo",
+    signature: "Avaliação no Google",
+    disclaimer: "Avaliações públicas deixadas por pacientes no Google, exibidas sem identificação.",
+    ctaLabel: "Ver avaliações no Google",
+    // Substitua "#" pelo link das avaliações no Google quando disponível.
+    googleReviewsUrl: "#",
+    items: [
+      "Excelente profissional, muito capacitada e atenciosa. Estou tendo muitos resultados com a terapia.",
+      "Profissional extremamente cuidadosa e acolhedora! Me deixou super à vontade desde a primeira consulta! Recomendo para todos que desejam uma terapia humanizada e de qualidade.",
+      "Estou gostando bastante das consultas. Tem me ajudado a refletir e melhorar meu ritmo e jeito de lidar com as situações. Muito atenciosa, respeitosa e uma boa ouvinte de verdade! Disposta a te entender sem julgar.",
+      "Ela me acompanha há algum tempo e só tenho a agradecer! Gratidão por toda paciência e ajuda.",
+      "Excelente trabalho! Fiz durante um longo período e me fez alcançar meus objetivos mais facilmente.",
+      "Excelente profissional! Muito atenciosa e perspicaz em suas análises. Só elogios!",
+      "Profissional maravilhosa, tem um atendimento humano, é compreensiva, ótima ouvinte e respeitosa.",
+      "Maravilhosa, me sinto muito acolhida, fez eu finalmente gostar da terapia.",
     ],
   },
 

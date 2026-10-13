@@ -4,6 +4,7 @@ import { SupportSection } from "@/components/support-section"
 import { AboutSection } from "@/components/about-section"
 import { HelpSection } from "@/components/help-section"
 import { ProcessSection } from "@/components/process-section"
+import { ReviewsSection } from "@/components/reviews-section"
 import { BenefitsSection } from "@/components/benefits-section"
 import { FaqSection } from "@/components/faq-section"
 import { FinalCta } from "@/components/final-cta"
@@ -22,6 +23,7 @@ export default function Home() {
         <AboutSection />
         <HelpSection />
         <ProcessSection />
+        <ReviewsSection />
         <BenefitsSection />
         <FaqSection />
         <FinalCta />
