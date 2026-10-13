@@ -72,8 +72,7 @@ export const siteConfig = {
     signature: "Avaliação no Google",
     disclaimer: "Avaliações públicas deixadas por pacientes no Google, exibidas sem identificação.",
     ctaLabel: "Ver avaliações no Google",
-    // Substitua "#" pelo link das avaliações no Google quando disponível.
-    googleReviewsUrl: "#",
+    googleReviewsUrl: "https://share.google/Z3qPMBUZVAQRvGATv",
     items: [
       "Excelente profissional, muito capacitada e atenciosa. Estou tendo muitos resultados com a terapia.",
       "Profissional extremamente cuidadosa e acolhedora! Me deixou super à vontade desde a primeira consulta! Recomendo para todos que desejam uma terapia humanizada e de qualidade.",
