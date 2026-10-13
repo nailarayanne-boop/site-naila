@@ -10,7 +10,7 @@ export function Hero() {
   const { hero, images, whatsapp } = siteConfig
 
   return (
-    <section id="inicio" aria-labelledby="hero-title" className="relative overflow-hidden pt-28 pb-20 md:pt-36 md:pb-28">
+    <section id="inicio" aria-labelledby="hero-title" className="relative overflow-hidden pt-28 pb-20 md:pt-36 md:pb-28 lg:pt-28 lg:pb-16">
       <LogoMark
         className="pointer-events-none absolute -left-24 top-24 hidden w-[46rem] text-navy/[0.05] lg:block"
         strokeWidth={1}
@@ -31,10 +31,10 @@ export function Hero() {
           </ul>
           <h1
             id="hero-title"
-            className="mt-8 text-balance font-serif text-[2.6rem] font-light leading-[1.05] text-navy sm:text-6xl lg:text-[4.4rem]"
+            className="mt-8 text-balance font-serif text-[2.6rem] font-light leading-[1.05] text-navy sm:text-6xl lg:mt-6 lg:text-[3.1rem] xl:text-[3.2rem]"
           >
-            Terapia <em className="font-normal italic text-petrol">humanizada</em>, com escuta e apoio para o seu
-            bem-estar emocional.
+            Terapia <em className="font-normal italic text-petrol">humanizada</em>, com escuta e apoio para o seu{" "}
+            <span className="whitespace-nowrap">bem-estar</span> emocional.
           </h1>
         </div>
 
@@ -44,7 +44,7 @@ export function Hero() {
             className="absolute -right-6 -top-6 h-[88%] w-[88%] rounded-[45%_55%_40%_60%/55%_45%_55%_45%] bg-sand/60 md:-right-10"
           />
           <div aria-hidden="true" className="arch absolute -bottom-4 -left-4 h-[70%] w-[70%] border border-sand" />
-          <div className="arch relative aspect-[4/5] overflow-hidden bg-sand-light">
+          <div className="arch relative aspect-[4/5] overflow-hidden lg:aspect-auto lg:h-[min(34rem,calc(100svh-9rem))] bg-sand-light">
             <Image
               src={images.hero.src}
               alt={images.hero.alt}
@@ -59,7 +59,7 @@ export function Hero() {
 
         <div className="fade-up [animation-delay:150ms] lg:self-start">
           <p className="max-w-lg text-pretty text-lg leading-relaxed text-ink-soft">{hero.subtitle}</p>
-          <div className="mt-9 flex flex-col gap-3 sm:flex-row">
+          <div className="mt-9 flex flex-col gap-3 sm:flex-row lg:mt-7">
             <ButtonLink href={whatsapp.link} external>
               <WhatsappIcon className="size-4" />
               Agendar pelo WhatsApp
@@ -69,7 +69,7 @@ export function Hero() {
               <ArrowRight className="size-4" strokeWidth={1.5} aria-hidden="true" />
             </ButtonLink>
           </div>
-          <p className="eyebrow mt-10 text-navy/60">{siteConfig.crp}</p>
+          <p className="eyebrow mt-10 text-navy/60 lg:mt-7">{siteConfig.crp}</p>
         </div>
       </div>
     </section>
